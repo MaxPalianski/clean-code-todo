@@ -114,14 +114,11 @@ const taskIncomplete = function () {
   bindTaskEvents(listItem, taskCompleted);
 };
 
-
-
 //The glue to hold it all together.
 
 //Set the click handler to the addTask function.
 
 addButton.addEventListener('click', addTask);
-
 
 const bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   //select ListItems children
