@@ -7,13 +7,13 @@ export default [
       globals: {
         window: 'readonly',
         document: 'readonly',
-        console: 'readonly'
-      }
+        console: 'readonly',
+      },
     },
     rules: {
       'no-var': 'error',
       'prefer-const': 'error',
-      'no-console': 'warn'
-    }
-  }
+      'no-console': 'warn',
+    },
+  },
 ];
